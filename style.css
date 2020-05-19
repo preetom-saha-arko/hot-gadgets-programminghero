@@ -1,0 +1,94 @@
+.carousel-indicators li{
+    background-color: #CECECE;
+    height: 10px;
+    width: 15px;
+    border-radius: 5px;
+    
+}
+
+.carousel-indicators {
+    bottom:-50px;  /* carousel-indicators are by default positioned as absolute */
+}
+
+.carousel-inner {
+    margin-bottom:50px;
+ }
+
+ /* These two have been done to position the indicator a little bit downwards */
+
+ /* https://stackoverflow.com/questions/20207487/bootstrap-3-default-carousel-how-to-move-indicators-down-and-outside-of-slide-c */
+
+.carousel-indicators .active{
+    background-image: linear-gradient(to right,#FF9C35,#FFD019);
+    width: 40px;
+}
+
+#carousel-container{
+    margin-bottom: 100px;
+}
+
+h6{
+    color: #FF9D00;
+}
+
+.card-deck{
+    text-align: center;
+}
+
+.card-footer{
+    background-color: transparent;
+    border-top: none;
+}
+
+.btn-dark{
+    border-radius: 8px;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px lightgray;
+    padding: 40px 20px;
+}
+
+.card p{
+    color:gray;
+}
+
+/*
+.categories h3{
+    text-align: center;
+}
+*/
+
+.underline{
+    background-image: linear-gradient(to left,#FF9C35,#FFD019);
+    height: 8px;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    left: 20px; /* These two lines have been added to displace the underline a little bit right */
+
+    /*margin: 0 auto 50px auto; */ /* d-flex justify-content-center isn't working for unknown reasons  */
+    /* left and right margin auto for aligning in center horizontally */
+}
+
+
+
+.img-shorten img{
+    width: 100px;
+}
+
+.bag{
+    margin: auto 0;  /* d-flex align-items-center isn't working for unknown reasons  */
+}
+
+.pale{
+    margin: auto 0;  /* same reason, maybe flex alignment doesn't work for single element */
+}
+
+.pale img{
+    width: 100%;  /* in small device, the image will take 100% of available width */
+    
+}
+
