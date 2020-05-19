@@ -27,6 +27,13 @@
     margin-bottom: 100px;
 }
 
+#carousel-section{
+    background-image: url(images/Group-106.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    
+}
+
 h6{
     color: #FF9D00;
 }
