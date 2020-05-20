@@ -7,11 +7,11 @@
 }
 
 .carousel-indicators {
-    bottom:-50px;  /* carousel-indicators are by default positioned as absolute */
+    bottom:-70px;  /* carousel-indicators are by default positioned as absolute */
 }
 
 .carousel-inner {
-    margin-bottom:50px;
+    margin-bottom:70px;
  }
 
  /* These two have been done to position the indicator a little bit downwards */
@@ -31,7 +31,8 @@
     background-image: url(images/Group-106.png);
     background-repeat: no-repeat;
     background-position: left bottom;
-    
+    height: 700px;
+    margin-bottom: 50px;
 }
 
 h6{
